@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .search-bar input {
+    padding: 8px;
+    width: 60%;
+    margin-right: 10px;
+  }
+  
+  .recipe-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .recipe-card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .recipe-details img {
+    width: 50%;
+  }
