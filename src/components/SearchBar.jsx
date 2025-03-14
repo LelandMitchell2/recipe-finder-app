@@ -12,7 +12,7 @@ const SearchBar = ({ onSearch }) => {
       <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row justify-center items-center gap-4 my-6">
         <input
           type="text"
-          placeholder="Enter ingredients (comma separated)..."
+          placeholder="Enter ingredient"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           className="w-full sm:w-1/2 px-4 py-3 border border-gray-300 rounded-xl focus:ring-4 focus:ring-blue-400 transition"
